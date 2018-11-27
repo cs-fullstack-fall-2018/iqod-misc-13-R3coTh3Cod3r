@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="exampleTest">EIASO</p>
+<button onclick="encodeWorld()">Push to Change</button>
+<script>
+    function encodeWorld() {
+      var string = document.getElementById("exampleTest").innerHTML;
+      var changeString=  string.replace('EIASO','31@$0');
+        document.getElementById('exampleTest').innerHTML = changeString
+    }
+</script>
+</body>
+</html>
